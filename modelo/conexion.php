@@ -14,7 +14,7 @@ abstract class conexion{
 
     //Métodos
     //Métodos abstractos para CRUD de clases que hereden
-    abstract protected function readEmpleado();
+    abstract protected function read();
 
     //método privado para conectarse a la bd
     private function db_open(){
