@@ -66,16 +66,16 @@ include("../controlador/empleadoController.php");
                 //imprimimos datos de entrada
                 ?>
                 <div class="form group">
-                    <label for="idEmpleado">Id Empleado:</label> <br>
-                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $id_empleado ?> disabled>
-                    <label for="idEmpleado">Nombres Empleado:</label> <br>
-                    <input style="border-color:blue;" type="text" class="form-control" placeholder="<?php echo $nombre_empleado . ' ' . $apellido_empleado ?>" disabled>
-                    <label for="idEmpleado">Cargo Empleado:</label> <br>
-                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $tipo_empleado ?> disabled>
-                    <label for="idEmpleado">Valor de la Hora:</label> <br>
-                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $objContratista->getValorHora() ?> disabled>
-                    <label for="idEmpleado">Total Horas Trabajas en el Mes:</label> <br>
-                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $objContratista->getTotalHoras() ?> disabled>
+                    <label for="idEmpleado">Id Empleado</label> <br>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $id_empleado ?> disabled> <br>
+                    <label for="idEmpleado">Nombres Empleado</label> <br>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder="<?php echo $nombre_empleado . ' ' . $apellido_empleado ?>" disabled> <br>
+                    <label for="idEmpleado">Cargo Empleado</label> <br>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $tipo_empleado ?> disabled> <br>
+                    <label for="idEmpleado">Valor de la Hora</label> <br>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $objContratista->getValorHora() ?> disabled> <br>
+                    <label for="idEmpleado">Total Horas Trabajas en el Mes</label> <br>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $objContratista->getTotalHoras() ?> disabled> <br>
 
                 </div>
                 <?php
@@ -84,14 +84,14 @@ include("../controlador/empleadoController.php");
                 <h4><br> Resultados: <br></h4>
 
                 <div class="form group">
-                    <label for="idEmpleado">Id Empleado:</label> <br>
-                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $id_empleado ?> disabled>
-                    <label for="idEmpleado">Nombres Empleado:</label> <br>
-                    <input style="border-color:blue;" type="text" class="form-control" placeholder="<?php echo $nombre_empleado . ' ' . $apellido_empleado ?>" disabled>
-                    <label for="idEmpleado">Cargo Empleado:</label> <br>
-                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $tipo_empleado ?> disabled>
-                    <label for="idEmpleado">Salario Neto a recibir en el Mes:</label> <br>
-                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $objContratista->getSalario() ?> disabled>
+                    <label for="idEmpleado">Id Empleado</label> <br>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $id_empleado ?> disabled> <br>
+                    <label for="idEmpleado">Nombres Empleado</label> <br>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder="<?php echo $nombre_empleado . ' ' . $apellido_empleado ?>" disabled> <br>
+                    <label for="idEmpleado">Cargo Empleado</label> <br>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $tipo_empleado ?> disabled> <br>
+                    <label for="idEmpleado">Salario Neto a recibir en el Mes</label> <br>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $objContratista->getSalario() ?> disabled> <br>
 
                 </div>
             </div>
