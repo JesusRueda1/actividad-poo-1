@@ -9,6 +9,7 @@
         $id_empleado =  $data[$n]['id'];
         $nombre_empleado = $data[$n]['nombre'];
         $apellido_empleado = $data[$n]['apellido'];
+        $doc_empleado = $data[$n]['documento'];
         $tipo_empleado = $data[$n]['tipo_empleado'];
         $salario_empleado = $data[$n]['salario_basico'];
     }
