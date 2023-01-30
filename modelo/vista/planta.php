@@ -17,7 +17,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Calculardora</a>
+            <a class="navbar-brand" href="#">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,11 +25,6 @@
             <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="http://localhost/POO%20ACT-1/modelo/vista/contratista.php">Contratista</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/POO%20ACT-1/modelo/vista/planta.php">Planta</a>
                     </li>
                 </ul>
             </div>
