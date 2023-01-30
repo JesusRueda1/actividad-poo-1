@@ -24,7 +24,7 @@ include("../controlador/empleadoController.php");
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/POO%20ACT-1/modelo/vista/planta.php">Planta</a>
+                        <a class="nav-link" href="planta.php">Planta</a>
                     </li>
                 </ul>
             </div>

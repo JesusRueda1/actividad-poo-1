@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/POO%20ACT-1/modelo/vista/contratista.php">Contratista</a>
+                        <a class="nav-link" href="contratista.php">Contratista</a>
                     </li>
                 </ul>
             </div>

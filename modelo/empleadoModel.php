@@ -8,7 +8,7 @@ class empleadoModel extends conexion{
     public $salario_basico;
 
     function __construct(){
-        $this->db_name = 'poo1';
+        $this->db_name = 'poo';
     }
     
     public function read($id = ''){
