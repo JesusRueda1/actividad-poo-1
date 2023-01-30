@@ -24,10 +24,7 @@ include("../controlador/empleadoController.php");
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Planta</a>
+                        <a class="nav-link" href="http://localhost/POO%20ACT-1/modelo/vista/planta.php">Planta</a>
                     </li>
                 </ul>
             </div>
@@ -70,15 +67,15 @@ include("../controlador/empleadoController.php");
                 ?>
                 <div class="form group">
                     <label for="idEmpleado">Id Empleado:</label> <br>
-                    <input type="text" class="form-control" placeholder=<?php echo $id_empleado ?> disabled>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $id_empleado ?> disabled>
                     <label for="idEmpleado">Nombres Empleado:</label> <br>
-                    <input type="text" class="form-control" placeholder="<?php echo $nombre_empleado . ' ' . $apellido_empleado ?>" disabled>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder="<?php echo $nombre_empleado . ' ' . $apellido_empleado ?>" disabled>
                     <label for="idEmpleado">Cargo Empleado:</label> <br>
-                    <input type="text" class="form-control" placeholder=<?php echo $tipo_empleado ?> disabled>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $tipo_empleado ?> disabled>
                     <label for="idEmpleado">Valor de la Hora:</label> <br>
-                    <input type="text" class="form-control" placeholder=<?php echo $objContratista->getValorHora() ?> disabled>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $objContratista->getValorHora() ?> disabled>
                     <label for="idEmpleado">Total Horas Trabajas en el Mes:</label> <br>
-                    <input type="text" class="form-control" placeholder=<?php echo $objContratista->getTotalHoras() ?> disabled>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $objContratista->getTotalHoras() ?> disabled>
 
                 </div>
                 <?php
@@ -88,19 +85,19 @@ include("../controlador/empleadoController.php");
 
                 <div class="form group">
                     <label for="idEmpleado">Id Empleado:</label> <br>
-                    <input type="text" class="form-control" placeholder=<?php echo $id_empleado ?> disabled>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $id_empleado ?> disabled>
                     <label for="idEmpleado">Nombres Empleado:</label> <br>
-                    <input type="text" class="form-control" placeholder="<?php echo $nombre_empleado . ' ' . $apellido_empleado ?>" disabled>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder="<?php echo $nombre_empleado . ' ' . $apellido_empleado ?>" disabled>
                     <label for="idEmpleado">Cargo Empleado:</label> <br>
-                    <input type="text" class="form-control" placeholder=<?php echo $tipo_empleado ?> disabled>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $tipo_empleado ?> disabled>
                     <label for="idEmpleado">Salario Neto a recibir en el Mes:</label> <br>
-                    <input type="text" class="form-control" placeholder=<?php echo $objContratista->getSalario() ?> disabled>
+                    <input style="border-color:blue;" type="text" class="form-control" placeholder=<?php echo $objContratista->getSalario() ?> disabled>
 
                 </div>
             </div>
         </div>
     </div>
-
+<br>
 </body>
 
 </html>
