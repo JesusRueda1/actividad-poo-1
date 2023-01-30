@@ -1,5 +1,6 @@
 <?php
 class Empleado{
+    protected $id;
     protected $cargo;
     protected $identificacion;
     protected $nombre;
