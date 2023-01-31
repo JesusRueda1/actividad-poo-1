@@ -1,4 +1,4 @@
-<?php// require_once('../controlador/salario.php'); ?>
+<?php // require_once('../controlador/salario.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>

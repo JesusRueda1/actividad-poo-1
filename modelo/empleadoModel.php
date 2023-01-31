@@ -1,11 +1,11 @@
 <?php
 require_once('conexion.php');
 class empleadoModel extends conexion{
-    public $id;
-    public $nombre;
-    public $apellido;
-    public $tipo_empleado;
-    public $salario_basico;
+    private $id;
+    private $nombre;
+    private $apellido;
+    private $tipo_empleado;
+    private $salario_basico;
 
     function __construct(){
         $this->db_name = 'poo';

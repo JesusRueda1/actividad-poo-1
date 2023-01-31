@@ -1,10 +1,10 @@
 <?php
 class Empleado{
-    protected $id;
-    protected $cargo;
-    protected $identificacion;
-    protected $nombre;
-    protected $salario;
+    private $id;
+    private $cargo;
+    private $identificacion;
+    private $nombre;
+    private $salario;
     //Constructor
     /**
      * @param cargo, @param salario, @param nombre, @param identificacion
