@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body style="background-image:url('modelo/vista/img/welcome.jpg');background-repeat: no-repeat; background-size: cover;">
-    <div class="container">
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand text-primary" href="#">Inicio</a>
