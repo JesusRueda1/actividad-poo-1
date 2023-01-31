@@ -68,22 +68,21 @@ include("../controlador/empleadoController.php");
                     <div class="row mt-4">
                         <div class="col-lg-6 ">
                             <label for="idEmpleado">Id Empleado</label> 
-                            <input style="border-color:blue;" type="text" class="form-control mt-1 mb-3" placeholder=<?php echo $id_empleado ?> disabled> 
+                            <input style="border-color:green;" type="text" class="form-control mt-1 mb-3" placeholder=<?php echo $id_empleado ?> disabled> 
                             <label for="idEmpleado">Nombres Empleado</label> 
-                            <input style="border-color:blue;" type="text" class="form-control mt-1 mb-3" placeholder="<?php echo $nombre_empleado . ' ' . $apellido_empleado ?>" disabled> 
+                            <input style="border-color:green;" type="text" class="form-control mt-1 mb-3" placeholder="<?php echo $nombre_empleado . ' ' . $apellido_empleado ?>" disabled> 
                             <label for="idEmpleado">Cargo Empleado</label> 
                         </div>
                         <div class="col-lg-6">
                             <label for="idEmpleado">Valor de la Hora</label> 
-                            <input style="border-color:blue;" type="text" class="form-control mt-1 mb-3" placeholder=<?php echo $objContratista->getValorHora() ?> disabled> 
+                            <input style="border-color:green;" type="text" class="form-control mt-1 mb-3" placeholder=<?php echo $objContratista->getValorHora() ?> disabled> 
                             <label for="idEmpleado">Total Horas Trabajas en el Mes</label> 
-                            <input style="border-color:blue;" type="text" class="form-control mt-1 mb-3" placeholder=<?php echo $objContratista->getTotalHoras() ?> disabled> 
+                            <input style="border-color:green;" type="text" class="form-control mt-1 mb-3" placeholder=<?php echo $objContratista->getTotalHoras() ?> disabled> 
                         </div>
                         <div class="col-lg-12">
-                            <input style="border-color:blue;" type="text" class="form-control mt-1 mb-3" placeholder=<?php echo $tipo_empleado ?> disabled> 
+                            <input style="border-color:green;" type="text" class="form-control mt-1 mb-3" placeholder=<?php echo $tipo_empleado ?> disabled> 
                         </div>
                     </div>
-                    
                 </div>
                 <?php
                 //calculam os el salario del empleado de Contrato
